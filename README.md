@@ -20,7 +20,9 @@ source ~/.bashrc
 Configure prof option by running
 
 ```bash
-submit config
+cd seneca_submission
+
+./submit config
 ```
 
 And enter your prof's first name and last name. (*this needs to be done only

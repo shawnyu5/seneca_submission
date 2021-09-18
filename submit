@@ -23,6 +23,8 @@ elif [[ "$1" == "config" ]]; then
     # replace 5th line in file
     sed -i "5 s|.*|SUBMISSION_COMMAND=\"~/$FIRST_NAME.$LAST_NAME/submit 345\"|" submit
 
+    echo "prof configured to $FIRST_NAME $LAST_NAME"
+
 # submit workshop
 else
     if [ $# = 1 ]; then
