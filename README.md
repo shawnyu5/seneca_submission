@@ -7,6 +7,7 @@ Submits OOP workshops and Milestones
 Clone repo
 
 ```bash
+cd ~
 git clone https://github.com/shawnyu5/seneca_submission
 ```
 
