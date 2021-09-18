@@ -4,17 +4,30 @@ Submits OOP workshops and Milestones
 
 ## Installation
 
-## Planning
+Clone repo
 
-check if arg 1 is `-ms` if it is
-   * check if arg number = 0. if yes, ask for ms number, else arg 2 = ms number
+```bash
+git clone https://github.com/shawnyu5/seneca_submission
+```
 
-For workshops:
+Add directory to path
 
-   * check if number of args = 1. If yes, WS_NUMBER = arg1 and ask for part number.
+```bash
+echo "export PATH="$PATH:~/seneca_submission/" >> ~/.bashrc
+source ~/.bashrc
+```
 
-   * If number of args = 2. arg 1 = WS_NUMBER, arg 2 = WS_PART.
+Configure prof option by running
 
-   * Other wise, ask for WS_NUMBER and WS_PART.
+```bash
+submit config
+```
 
-If config flag is passed in, then ask for prof first name + last name.
+And enter your prof's first name and last name.
+
+## Usage
+
+By default, when running `submit` command without any flags, it will prompt for
+workshop number and workshop part. And it will execute the submission command
+for that corresponding workshop part.
+
