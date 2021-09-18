@@ -1,6 +1,6 @@
 # Submission
 
-Submits OOP workshops and Milestones
+Submits OOP workshops and Milestones. Allows you to run `submit` to submit workshops and milestones rather than some long command.
 
 ## Installation
 
