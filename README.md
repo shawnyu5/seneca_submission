@@ -13,7 +13,7 @@ git clone https://github.com/shawnyu5/seneca_submission
 Add directory to path
 
 ```bash
-echo "export PATH="$PATH:~/seneca_submission/" >> ~/.bashrc
+echo "export PATH=\"$PATH:$HOME/seneca_submission/\"" >> ~/.bashrc
 source ~/.bashrc
 ```
 
