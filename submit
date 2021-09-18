@@ -36,5 +36,5 @@ else
         read -p "part number (1/2): " WS_PART
     fi
     echo "submitting workshop $WS_NUMBER part $WS_PART"
-    echo "${SUBMISSION_COMMAND}_w${WS_NUMBER}_p${WS_PART}"
+    ${SUBMISSION_COMMAND}_w${WS_NUMBER}_p${WS_PART}
 fi
