@@ -2,7 +2,7 @@
 #purpose of this file: submit seneca OOP workshop
 #Date: 2021-09-17
 #---------------------------------
-SUBMISSION_COMMAND="~/mahboo.ali/submit 345"
+SUBMISSION_COMMAND="~/shawn.yu/submit 345"
 
 # if -ms flag, then submit milestone
 if [[ "$1" == "-ms" ]]; then
