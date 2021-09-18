@@ -21,7 +21,6 @@ Configure prof option by running
 
 ```bash
 cd seneca_submission
-
 ./submit config
 ```
 
