@@ -1,6 +1,6 @@
 # Submission
 
-Submits OOP workshops and Milestones. Allows you to run `submit` to submit
+Submits OOP workshops and Milestones on Seneca matrix. Allows you to run `submit` to submit
 workshops and milestones rather than some long command.
 
 ## Installation
